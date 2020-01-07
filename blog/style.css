@@ -1,0 +1,18 @@
+p {
+    font-size: 1.25rem;
+}
+ .letter .letter-header {
+     line-height: 0.9rem;
+ }
+
+ .letter .letter-body{
+     line-height: 26px;
+ }
+
+ .letter-foot {
+     line-height: 1rem;
+ }
+
+ li {
+     font-size: 1.25rem;
+ }
