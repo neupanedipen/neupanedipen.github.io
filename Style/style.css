@@ -1,0 +1,169 @@
+header{
+    background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #89216B, #DA4453); 
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#nav-bar{
+    background: linear-gradient(to right, #89216B, #DA4453);
+}
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 4px;
+}
+
+.navbar-nav .nav-item a{
+color: white;
+font-weight: 500;
+}
+
+#banner {
+    background-image: linear-gradient(to right, #89216B, #DA4453);
+    color: #fff;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+#banner img {
+    width: 90%;
+}
+
+
+#banner h1{
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#banner p{
+    font-size: 1.25rem;
+}
+
+#banner button {
+    border-radius: 30px;
+}
+
+#banner button a{
+    color: #89216B;
+    font-weight: 500;
+}
+
+#banner button a:hover{
+    color: #89216B;
+    text-decoration: none;
+}
+
+ .about{
+    background-color: #fff;
+} 
+
+
+.about h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.about p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.hire h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.hire p{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.hire button {
+    border-radius: 30px;
+}
+
+
+.hire button a{
+    color: #fff;
+    font-weight: 500;
+}
+
+.hire button a:hover{
+    color: #89216B;
+    text-decoration: none;
+}
+
+.hire {
+    background-color: #fff;
+} 
+
+.skills{
+    background: #F8F9FA;
+}
+
+.icon {
+    font-size: 80px;
+    color: #fff;
+    margin: 40px auto;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(to right, #89216B, #DA4453);
+    border-radius: 50%;
+}
+
+footer{
+    background-image: linear-gradient(to right, #89216B, #DA4453);
+    
+}
+
+footer .contact-details {
+    color: #fff;
+}
+
+.foot-items {
+    padding-bottom: 10px;
+}
+
+.skills h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.skills p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.social-links i{
+    font-size: 32px;
+    padding: 7px;
+    color: #fff;
+}
+
+footer h3{
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 1.15rem;
+}
+
